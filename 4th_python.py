@@ -9,7 +9,7 @@ list_students = list(students)
 
 print(list_students)
 
-random.shuffle(list_students)  #shuffle: lst 를 섞어 주는 것
+random.shuffle(list_students)  #shuffle: list 를 섞어 주는 것
 print(list_students)
 
 project_team = []

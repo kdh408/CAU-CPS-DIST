@@ -18,7 +18,7 @@ for i in range(6):  #6개의 팀을 만듦
     index = i * num  #각 팀에 들어가는 첫번째 사람의 번호
     # i: 0,1,2,3,4,5 -> 0,5, 10,15,20,25 // (0,1,2,3,4) 한팀 (5,6,7,8,9) 한팀 ...
     project_team.append(list_students[index:index+num])
-    #list 타입 변수 a = [1:5] -> 1,2,3,4를 abs()에 넣겠다
+    #list 타입 변수 a = [1:5] -> 1,2,3,4를 a()에 넣겠다
 
 for i in project_team:
     print(i)

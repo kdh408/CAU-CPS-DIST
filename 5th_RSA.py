@@ -18,7 +18,7 @@ while True:
 
 #encryption
 # C = p^e mod n
-P = "CAU CPS DIST" # plaintext
+P = "CAU CPS DISTgit" # plaintext
 P_list = [ord(x) for x in P] #plaintext를 숫자로 바꿈 / ord: 문자 -> 숫자
 
 # for x in p:
@@ -43,4 +43,3 @@ print('decryted text ', decryted)
 
 decryted_text = ''.join([chr(x) for x in decryted]) # chr: 숫자 -> 문자/ join: 개개의 문자를 하나의 문자열 만들어 줌
 print(decryted_text)
-

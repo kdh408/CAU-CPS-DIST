@@ -1,11 +1,11 @@
 
-p = 11
-q = 13
+p = 17
+q = 19
 n = p*q
 phi_n = (p-1)*(q-1)
 
 #e를 찾는 과정은 다음주 심화 과정
-e = 7
+e = 11
 
 #d 찾기
 d = 0
@@ -18,7 +18,7 @@ while True:
 
 #encryption
 # C = p^e mod n
-P = "CAU CPS DIST" # plaintext
+P = "CAU CPS DIST 5th" # plaintext
 P_list = [ord(x) for x in P] #plaintext를 숫자로 바꿈 / ord: 문자 -> 숫자
 
 # for x in p:

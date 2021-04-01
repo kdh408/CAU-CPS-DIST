@@ -18,7 +18,7 @@ while True:
 
 #encryption
 # C = p^e mod n
-P = "CAU CPS DISTgit" # plaintext
+P = "CAU CPS DIST" # plaintext
 P_list = [ord(x) for x in P] #plaintext를 숫자로 바꿈 / ord: 문자 -> 숫자
 
 # for x in p:
